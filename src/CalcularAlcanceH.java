@@ -67,4 +67,23 @@ public class CalcularAlcanceH {
     public void setAlcanceH(double alcanceH) {
         this.alcanceH = alcanceH;
     }
+
+    // METODOS DE CALCULO
+    public double VelocidadInicialX(double velocidadInicial, double angulo) {
+        return velocidadInicialX = velocidadInicial * Math.cos(Math.toRadians(angulo));
+    }
+
+
+    public double VelocidadInicialY(double velocidadInicial, double angulo) {
+        return velocidadInicialY = velocidadInicial * Math.sin(Math.toRadians(angulo));
+    }
+
+
+    public double TiempoDeVuelo() {
+        return tiempoVuelo = (2 * velocidadInicialX) / acelVerti;
+    }
+
+    public double AlcanceHorizontal() {
+        return alcanceH = (velocidadInicialX * tiempoVuelo);
+    }
 }
