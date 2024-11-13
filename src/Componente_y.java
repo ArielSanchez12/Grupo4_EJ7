@@ -23,4 +23,7 @@ public class Componente_y {
     public void setAngulo(double angulo) {
         this.angulo = angulo;
     }
+
+
+
 }
