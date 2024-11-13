@@ -67,9 +67,4 @@ public class CalcularAlcanceH {
     public void setAlcanceH(double alcanceH) {
         this.alcanceH = alcanceH;
     }
-
-
-
-
-
 }

@@ -8,7 +8,9 @@ public class Main {
         Scanner ingresar = new Scanner(System. in);
 
         //OBJETO DONDE SE GUARDARA LOS RESULTADOS
-        CalcularAlcanceH calculo1 = new CalcularAlcanceH();;
+        CalcularAlcanceH calculo1 = new CalcularAlcanceH();
+
+        // PARTE DEL INSERTAR, AQUI...
 
 
     }
