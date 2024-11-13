@@ -11,6 +11,7 @@ public class Main {
                 "\n¿Cuál es el alcance horizontal del balón?");
         //Variables
         int angulo=0, velocidad=0;
+        double vel_x,vel_y,tiempo;
         //Instancia de clases
         Scanner ingresar = new Scanner(System. in);
         CalcularAlcanceH calculo1 = new CalcularAlcanceH();
@@ -27,9 +28,30 @@ public class Main {
         //OBJETO DONDE SE GUARDARA LOS RESULTADOS
             calculo1.setAngulo((double)angulo);
             calculo1.setVelocidadInicial((double)velocidad);
-            calculo1.VelocidadInicialX(velocidad,angulo);
-            calculo1.VelocidadInicialY(velocidad,angulo);
-        // PARTE DEL INSERTAR, AQUI...
+            vel_x=calculo1.VelocidadInicialX(velocidad,angulo);
+            vel_y=calculo1.VelocidadInicialY(velocidad,angulo);
+            tiempo = calculo1.TiempoDeVuelo();
+            calculo1.AlcanceHorizontal();
+            calculo1.setTiempoVuelo(tiempo);
+        //impresion de resultados
+            System.out.println("----------RESOLUCION----------");
+            System.out.println("----------DATOS----------");
+            System.out.println("v="+velocidad+"m/s\nθ="+angulo+"°\ng=-9,81 m/s^2");
+            System.out.println("----------PASOS----------");
+            System.out.println("1. Descomponemos la velocidad en funcion del angulo θ");
+            System.out.println("Vx = v*cos(θ)\t\tVy= v*sen(θ)");
+            System.out.println("Vx = "+velocidad+"m/s * cos("+angulo+"°)\t\tVy= "+velocidad+"m/s * sen("+angulo+"°)");
+            System.out.println("Vx = "+vel_x+"m/s\t\t\t Vy="+vel_y+"m/s");
+            System.out.println("2. Calculamos el tiempo de vuelo");
+            System.out.println("yf = yo + vy*t +1/2 g*t^2");
+            System.out.println("0=0* "+vel_y+"m/s*t + 1/2 * 9,81 m/s^2 * t^2");
+            System.out.println ("t ="+tiempo+"s");
+            System.out.println("3. Calculamos el desplazamiento horizontal");
+            System.out.println("xf = xo + vx*t +1/2 g*t^2");
+            System.out.println("xf = 0 m + "+vel_x+"m/s * "+tiempo+"s + 1/2 * 0m/s^2 * ("+tiempo+")^2");
+            System.out.println("xf = "+calculo1.AlcanceHorizontal());
+
+
 
 
     }

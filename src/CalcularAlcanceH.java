@@ -1,7 +1,7 @@
 public class CalcularAlcanceH {
     private double velocidadInicial; // Ingresada por el usuario
     private double angulo; // Ingresada por el usuario
-    private double acelVerti = 9.8; //a sub y
+    private static double acelVerti = 9.8; //a sub y
     private double tiempoVuelo; //y sub f
     private double velocidadInicialX; //v sub 0 x
     private double velocidadInicialY; //v sub 0 y
@@ -12,13 +12,6 @@ public class CalcularAlcanceH {
     }
 
     //Setters y getters
-    public double getAcelVerti() {
-        return acelVerti;
-    }
-
-    public void setAcelVerti(double acelVerti) {
-        this.acelVerti = acelVerti;
-    }
 
     public double getTiempoVuelo() {
         return tiempoVuelo;
@@ -58,14 +51,6 @@ public class CalcularAlcanceH {
 
     public void setVelocidadInicialY(double velocidadInicialY) {
         this.velocidadInicialY = velocidadInicialY;
-    }
-
-    public double getAlcanceH() {
-        return alcanceH;
-    }
-
-    public void setAlcanceH(double alcanceH) {
-        this.alcanceH = alcanceH;
     }
 
     // METODOS DE CALCULO
