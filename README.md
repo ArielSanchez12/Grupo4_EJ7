@@ -42,12 +42,15 @@ Finalmente el compañero Ariel Sánchez se encargó de realizar algunos cambios 
 Resultados finales
 
 Control de excepciones
+
 ![image](https://github.com/user-attachments/assets/ecab0c35-31e0-4b2d-a5bd-9ee0027ea251)
 
 Conversiones
+
 ![image](https://github.com/user-attachments/assets/d3f3d4e1-cb86-42f0-a80d-2725af3a260c)
 
 Final
+
 ![image](https://github.com/user-attachments/assets/05a0fdb4-cdf9-4f13-ba6d-4cc6c6e92d11)
 
 
