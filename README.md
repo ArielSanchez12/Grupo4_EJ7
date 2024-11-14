@@ -2,7 +2,7 @@ Grupo 4 - Ejercicio 7
 
 Esta es la 'documentación' del desarrollo del ejercicio 7 realizado por el grupo 4.
 
-Integrantes
+Integrantes:
 Richard Padilla
 José Pila
 Patricio Ponce
