@@ -12,21 +12,6 @@ public class CalcularAlcanceH {
     }
 
     //Setters y getters
-    public double getAcelVerti() {
-        return acelVerti;
-    }
-
-    public void setAcelVerti(double acelVerti) {
-        this.acelVerti = acelVerti;
-    }
-
-    public double getTiempoVuelo() {
-        return tiempoVuelo;
-    }
-
-    public void setTiempoVuelo(double tiempoVuelo) {
-        this.tiempoVuelo = tiempoVuelo;
-    }
 
     public double getVelocidadInicial() {
         return velocidadInicial;
@@ -43,7 +28,22 @@ public class CalcularAlcanceH {
     public void setAngulo(double angulo) {
         this.angulo = angulo;
     }
+    /*
+    public double getAcelVerti() {
+        return acelVerti;
+    }
 
+    public void setAcelVerti(double acelVerti) {
+        this.acelVerti = acelVerti;
+    }
+
+    public double getTiempoVuelo() {
+        return tiempoVuelo;
+    }
+
+    public void setTiempoVuelo(double tiempoVuelo) {
+        this.tiempoVuelo = tiempoVuelo;
+    }
     public double getVelocidadInicialX() {
         return velocidadInicialX;
     }
@@ -68,6 +68,8 @@ public class CalcularAlcanceH {
         this.alcanceH = alcanceH;
     }
 
+     */
+
     // METODOS DE CALCULO
     public double VelocidadInicialX(double velocidadInicial, double angulo) {
         return velocidadInicialX = velocidadInicial * Math.cos(Math.toRadians(angulo));
@@ -80,7 +82,7 @@ public class CalcularAlcanceH {
 
 
     public double TiempoDeVuelo() {
-        return tiempoVuelo = (2 * velocidadInicialX) / acelVerti;
+        return tiempoVuelo = (2 * velocidadInicialY) / acelVerti;
     }
 
     public double AlcanceHorizontal() {
