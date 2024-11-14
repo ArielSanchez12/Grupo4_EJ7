@@ -47,7 +47,7 @@ Resultados finales
 
 Control de excepciones
 
-![image](https://github.com/user-attachments/assets/ecab0c35-31e0-4b2d-a5bd-9ee0027ea251)
+![image](https://github.com/user-attachments/assets/9042927f-4205-4311-b7de-8a4c954c5be4)
 
 Conversiones
 
